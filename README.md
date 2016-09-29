@@ -17,3 +17,6 @@
 
 - 尽量少使用嵌套，html 语义化。
 产险理赔 hybrid app 前端
+
+###description of vue-route
+- link: http://www.cnblogs.com/axl234/p/5899952.html
