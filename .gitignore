@@ -1,0 +1,13 @@
+.DS_Store
+node_modules/
+npm-debug.log
+selenium-debug.log
+test/unit/coverage
+test/e2e/reports
+dist-un/
+bower_components/
+establish.js
+origin/dev
+paco-ui/
+paco-sdk/
+build/establish.js

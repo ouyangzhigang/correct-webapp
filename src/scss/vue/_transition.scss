@@ -1,0 +1,40 @@
+@import "~animate/animate.scss";
+
+/**
+ * views transition based on animate.css
+ */
+.views-transition {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.views-enter {
+  height: 100%;
+  overflow: hidden;
+  @include fadeInDown(
+    $duration: 0.6s,
+    $delay: 0
+  );
+}
+
+.views-leave {
+  height: 100%;
+  overflow: hidden;
+  @include fadeOutUp(
+    $duration: 0.6s,
+    $delay: 0
+  );
+}
+
+
+/**
+ * fade transition
+ */
+.fade-transition {
+  transition: opacity .3s ease;
+}
+
+.fade-enter,
+.fade-leave {
+  opacity: 0;
+}

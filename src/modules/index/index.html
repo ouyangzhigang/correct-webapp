@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>首页</title>
+    <%= require('html!tmpl/inc-meta.html') %>
+  </head>
+  <body>
+    <div class="banner-bg">
+      <swiper :list="demo02_list"
+        loop
+        :aspect-ratio="300/500"
+        dots-position="center">
+      </swiper>
+    </div>
+
+    <div class="white-box">
+      <ul class="ci-row ci-border-tb">
+        <li class="ci-col ci-col-50 ci-border-r">
+          <span class="icon-btn icon-btn-baoan"></span>
+          <p>我要报案</p>
+        </li>
+        <li class="ci-col ci-col-50">
+          <span class="icon-btn icon-btn-chaxun"></span>
+          <p>案件查询</p>
+        </li>
+      </ul>
+      <ul class="ci-row ci-border-b">
+        <li class="ci-col ci-col-50 ci-border-r">
+          <span class="icon-btn icon-btn-lipeiyuan"></span>
+          <p>我的理赔员</p>
+        </li>
+        <li class="ci-col ci-col-50">
+          <span class="icon-btn icon-btn-zhoubian"></span>
+          <p>周边服务</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="bottom-txt ci-whitespace">
+      <p class="ci-txt-muted">尊敬的客户，平安产险温馨提醒您，近期有不法分子使用170等开 头的号码假冒保险公司员工实施诈骗行为，请您注意防范。</p>
+    </div>
+
+    <%= require('html!tmpl/inc-footer.html') %>
+  </body>
+</html>

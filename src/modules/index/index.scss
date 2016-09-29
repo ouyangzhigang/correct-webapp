@@ -1,0 +1,33 @@
+
+.ac-title {
+  font-size: 0.16rem;
+  color: #bfbfbf;
+  padding: 0.1rem 0;
+}
+.white-box {
+  background: #fff;
+}
+.ci-col {
+  padding: 0.2rem;
+  color: #5a5a5a;
+  font-size: 0.14rem;
+  text-align: center;
+  &:active {
+    .icon-btn {
+      position: relative;
+      top: 1px;
+    }
+  }
+}
+.icon-btn {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  display: inline-block;
+  overflow: hidden;
+  background-color: #ccc;
+}
+.bottom-txt {
+  padding-top: 0.1rem;
+  font-size: 0.12rem;
+}
